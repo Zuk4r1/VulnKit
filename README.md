@@ -29,7 +29,8 @@
 ## **Instalación**
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tuusuario/vulnkit.git
+   git clone https://github.com/Zuk4r1/VulnKit.git
    cd vulnkit
+   chmod +x vulnkit.py
    pip install -r requirements.txt
 
