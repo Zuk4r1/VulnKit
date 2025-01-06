@@ -4,23 +4,21 @@ VulnKit es una herramienta avanzada para la auditoría de seguridad y explotaci�
 
 # Características
 
-* Escaneo de encabezados de seguridad: Verifica la presencia de encabezados críticos como Content-Security-Policy, X-Frame-Options, HTTPS, Strict-Transport-Security, y más.
+Escaneo de encabezados de seguridad: Detecta encabezados críticos ausentes o mal configurados, como Content-Security-Policy, X-Frame-Options, Strict-Transport-Security, y más.
 
-* Identificación de vulnerabilidades críticas:
+**Identificación de vulnerabilidades críticas, como:**
 
-* SQL Injection (SQLi)
+* Inyección SQL (SQLi)
 
 * Ejecución Remota de Comandos (RCE)
 
 * Server-Side Request Forgery (SSRF)
 
-* Deserialización Insegura
+* Deserialización insegura
 
 * Cross-Site Scripting (XSS)
 
 * Falta de HTTPS
-
-* Ausencia de X-Frame-Options
 
 * Inyección LDAP
 
@@ -28,33 +26,31 @@ VulnKit es una herramienta avanzada para la auditoría de seguridad y explotaci�
 
 * Cross-Site Request Forgery (CSRF)
 
-* Open Redirect
+* Redirecciones inseguras (Open Redirect)
 
-* XML External Entity Injection (XXE)
-  
-**Búsqueda genérica de vulnerabilidades:** Escanea vulnerabilidades no cubiertas por exploits predefinidos.
+* Inyección de Entidades Externas XML (XXE)
 
-**Ejecución de exploits personalizados:** Permite probar la seguridad del objetivo con exploits específicos.
+* Subida insegura de archivos
 
-**Reportes detallados:**  Genera reportes en formato de tabla que se guardan automáticamente en un archivo .txt, incluyendo vulnerabilidades detectadas, detalles técnicos, versiones afectadas y comandos utilizados.
+* Detección de vulnerabilidades modernas como Log4Shell o ProxyLogon
 
-# Requerimientos
+**Escaneo genérico de vulnerabilidades:** Evalúa posibles fallas que no estén cubiertas por exploits específicos.
 
-* **Python 3.8+**
+**Ejecución de exploits personalizados:** Compatible con una amplia gama de exploits preconfigurados.
+
+**Exploración web (Spidering):** Rastrea enlaces y formularios en aplicaciones web.
+
+**Reportes automáticos:** Genera informes claros en formato .txt con detalles de las vulnerabilidades detectadas.
+
+# Requerimientos:
+
+* Python: 3.8 o superior.
+
+* Dependencias **requests, argparse, beautifulsoup4, urllib3, dnspython, nmap,** entre otras.
 
 # Librerías externas (instalar con pip):
 
 **pip install -r requirements.txt**
-
-* requests
-
-* argparse
-
-* beautifulsoup4
-
-* urllib3
-
-* dns-python
 
 # Instalación
 
