@@ -80,6 +80,10 @@ Escaneo de encabezados de seguridad: Detecta encabezados críticos ausentes o ma
 
 **python vulnkit.py www.ejemplo.com --scan-all**
 
+# Escanear encabezados de seguridad:
+
+**python vulnkit.py www.ejemplo.com --scan-headers**
+
 # Tipos de Exploits Disponibles
 
 **sqli:** Explota la inyección SQL.
@@ -105,24 +109,6 @@ Escaneo de encabezados de seguridad: Detecta encabezados críticos ausentes o ma
 **open_redirect:** Evalúa redirecciones inseguras.
 
 **xxe:** Evalúa inyecciones XML externas.
-
-# Ejemplo de Ejecución
-
-* Escanear encabezados de seguridad:
-
-**python vulnkit.py www.ejemplo.com --scan-headers**
-
-# Ejecutar un exploit específico (ejemplo: SQLi):
-
-**python vulnkit.py www.ejemplo.com --exploit sqli**
-
-# Escaneo genérico:
-
-**python vulnkit.py www.ejemplo.com --scan-generic**
-
-# Ejecutar todos los exploits disponibles:
-
-**python vulnkit.py www.ejemplo.com --scan-all**
 
 # Salida
 
