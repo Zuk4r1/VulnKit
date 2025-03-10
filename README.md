@@ -43,46 +43,63 @@ Escaneo de encabezados de seguridad: Detecta encabezados críticos ausentes o ma
 **Reportes automáticos:** Genera informes claros en formato .txt con detalles de las vulnerabilidades detectadas.
 
 # Requerimientos:
-
-* Python: 3.8 o superior.
+```
+Python: 3.8 o superior.
+```
 
 * Dependencias **requests, argparse, beautifulsoup4, urllib3, dnspython, nmap,** entre otras.
 
 # Librerías externas (instalar con pip):
-
-**pip install -r requirements.txt**
+```
+pip install -r requirements.txt
+```
 
 # Instalación
 
 * Clona el repositorio:
-
-**git clone https://github.com/Zuk4r1/VulnKit.git**
-
-**cd vulnkit**
-
-**chmod +x vulnkit.py**
+```
+git clone https://github.com/Zuk4r1/VulnKit.git
+```
+# Acedemos al Directorio:
+```
+cd vulnkit
+```
+# Le damos permisos de escritura, lectura y ejecucion.
+```
+chmod +x vulnkit.py
+```
 
 # Comandos de Ejecución
 
 * Escaneo de encabezados de seguridad:
-
-**python vulnkit.py www.ejemplo.com --scan-headers**
+```
+python vulnkit.py www.ejemplo.com --scan-headers
+```
 
 # Ejecución de exploits específicos:
-
-**python vulnkit.py www.ejemplo.com --exploit <tipo_de_exploit>**
+```
+python vulnkit.py www.ejemplo.com --exploit <tipo_de_exploit>
+```
 
 # Escaneo de vulnerabilidades genéricas:
-
-**python vulnkit.py www.ejemplo.com --scan-generic**
+```
+python vulnkit.py www.ejemplo.com --scan-generico
+```
 
 # Ejecución de todos los exploits disponibles:
-
-**python vulnkit.py www.ejemplo.com --scan-all**
+```
+python vulnkit.py www.ejemplo.com --scan-all
+```
 
 # Escanear encabezados de seguridad:
-
-**python vulnkit.py www.ejemplo.com --scan-headers**
+```
+python vulnkit.py www.ejemplo.com --scan-headers
+```
+# Menu de ayuda
+Muestra todas las opciones y funciones que tiene la herramienta.
+```
+python vulnkit.py -h
+```
 
 # Tipos de Exploits Disponibles
 
