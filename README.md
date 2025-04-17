@@ -142,3 +142,9 @@ python vulnkit.py -h
 # Contribuciones
 
 ¡Las contribuciones son bienvenidas! Si deseas agregar nuevas funciones o mejorar la herramienta, envía una solicitud de extracción o abre un problema en el repositorio. Este texto actualizado refleja todas las mejoras implementadas en VulnKit, asegurando que los usuarios estén informados sobre las capacidades avanzadas y las nuevas características disponibles en la herramienta.
+  <br />
+	<br/>
+      	<p width="20px"><b>Se aceptan donaciones para mantener este proyecto</p></b>
+	      <a href="https://buymeacoffee.com/investigacq"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=investigacqc&button_colour=FF5F5F&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a><br />
+      	<a href="https://www.paypal.com/paypalme/babiloniaetica"><img title="Donations For Projects" height="25" src="https://ionicabizau.github.io/badges/paypal.svg" /></a>
+</div>
