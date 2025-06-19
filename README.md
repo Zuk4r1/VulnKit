@@ -117,29 +117,29 @@ python vulnkit.py -h
 
 # 🧨 Tipos de Exploits Disponibles
 
-**sqli:** Explota la inyección SQL.
+* **sqli:** Explota la inyección SQL.
 
-**rce:** Prueba de ejecución remota de comandos.
+* **rce:** Prueba de ejecución remota de comandos.
 
-**ssrf:** Evalúa SSRF.
+* **ssrf:** Evalúa SSRF.
 
-**deserialization:** Prueba deserialización insegura.
+* **deserialization:** Prueba deserialización insegura.
 
-**xss:** Explota secuencias de comandos entre sitios.
+* **xss:** Explota secuencias de comandos entre sitios.
 
-**ldap_injection:** Detecta y explota inyecciones LDAP.
+* **ldap_injection:** Detecta y explota inyecciones LDAP.
 
-**dt:** Realiza pruebas de directory traversal.
+* **dt:** Realiza pruebas de directory traversal.
 
-**csrf:** Evalúa vulnerabilidades de Cross-Site Request Forgery.
+* **csrf:** Evalúa vulnerabilidades de Cross-Site Request Forgery.
 
-**x_frame:** Detecta la ausencia de X-Frame-Options.
+* **x_frame:** Detecta la ausencia de X-Frame-Options.
 
-**https:** Evalúa la ausencia de HTTPS.
+* **https:** Evalúa la ausencia de HTTPS.
 
-**open_redirect:** Evalúa redirecciones inseguras.
+* **open_redirect:** Evalúa redirecciones inseguras.
 
-**xxe:** Evalúa inyecciones XML externas.
+* **xxe:** Evalúa inyecciones XML externas.
 
 # 📤 Salida
 
