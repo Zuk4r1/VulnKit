@@ -157,13 +157,12 @@ python vulnkit.py -h
 
 ¡Las contribuciones son bienvenidas! Si deseas agregar nuevas funciones o mejorar la herramienta, envía una solicitud de extracción o abre un problema en el repositorio. Este texto actualizado refleja todas las mejoras implementadas en VulnKit, asegurando que los usuarios estén informados sobre las capacidades avanzadas y las nuevas características disponibles en la herramienta.
 
-## 🎁 ¡Apoya el proyecto!
+## ☕ Apoya mis proyectos
 
-Si esta herramienta te ha sido útil, puedes apoyar su desarrollo con una donación:
+Si te resultan útiles mis herramientas, considera dar una ⭐ en GitHub o invitarme un café. ¡Gracias!
 
-☕ [Buy Me a Coffee](https://buymeacoffee.com/investigacq)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/investigacq)  [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/paypalme/babiloniaetica)
 
-💸 [PayPal](https://www.paypal.com/paypalme/babiloniaetica)
 
 # 🧠 Autor
 
